@@ -19,6 +19,10 @@ h1 {
     padding: 200px 0;
 }
 
+nav > p > a {
+    color:darkmagenta;
+}
+
 .side-bar {
     background-color: #202123;
     width: 244px;
@@ -79,8 +83,9 @@ input:focus {
 .input-container #submit {
     position: absolute;
     right: 0;
-    bottom: 15px;
+    bottom: 0px;
     cursor: pointer;
+    font-size: 45px;
 }
 
 button {
@@ -89,6 +94,7 @@ button {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+    cursor: pointer;
 }
 
 nav {
